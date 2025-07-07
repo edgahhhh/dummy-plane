@@ -12,7 +12,6 @@ setupPaths
 
 function setupPaths
 trunkPath = pwd;
-cd ..
 addpath(genpath(pwd))
 cd (trunkPath)
 end

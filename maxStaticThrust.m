@@ -37,6 +37,7 @@ Dspinner = Dprop*1/12; % m (NEEDS TO BE MEASURED)
 Aspinner = pi/4*Dspinner^2; % m^2
 % Conditions
 Pmotor = 111; % W
+Pprop = Pmotor * effProp;
 % Motor properties
 backEMF = 920; % kv = rpm/Vrms
 

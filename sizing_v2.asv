@@ -1,0 +1,28 @@
+% SIZING_V2.m
+% Author: Edgar Hernandez
+% Date: July 6, 2025
+% ----------------------
+% The purpose of this script is to document the current sizing iteration of
+% the aircraft. The script shall write the sizing results as a .mat file in
+% \results
+% ----------------------
+
+% setup script may need to be run first
+clear
+
+
+                              % Inputs %  
+% Design constraints
+mtow = 0.42;    % max take off weight, kg
+b = 1.2192/1.6; % wingspan (m), ~ 2.5 ft
+v_stall = 8;    % stalling speed, m/s
+% Conditions
+rrho = 1.17;    % air density, kg/m^3
+g = 9.18;   % gravity acceleration, m/s^2
+
+% Airfoil assumptions
+cl_max = 1.2;
+
+
+% Wing sizing
+S
