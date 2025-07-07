@@ -7,13 +7,8 @@
 % overestimations
 % Equations from General Aviation Aircraft Design, Gudmendsson 2nd ed.
 % -----------------
-% Equation 1 (first cut)
-%           Tmax = P^2/3 * (2*rho*Aprop)^1/3
-% Equation 2 (refined analysis)
-%           Tmax = kp*P^2/3 * (2*rho*Aprop)^1/3 * (1-Aspinner/Aprop)
-% Units are standard SI, where Power is represented by Watts and outputs of
-% equations are Newtons
 
+setup
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% 6x4.5B Propellor %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % This analysis uses the maximum rated power of the motor, 111W, to
